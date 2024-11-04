@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom';
-import data from '../data';
+import {data} from '../data';
 import Rating from '../components/Rating';
 
 function ProductScreen(props) {
