@@ -1,0 +1,19 @@
+{
+  "name": "formern",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "mon projet",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "author": "takwa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "node": "^22.11.0",
+    "nodemon": "^3.1.7"
+  }
+}
